@@ -28,7 +28,7 @@ if((isset($_POST['email']) && !empty(trim($_POST['email']))) && (isset($_POST['m
     $mail->Port = 465; // or 587
     $mail->IsHTML(true);
     $mail->Username = "renatoguara2020@gmail.com";
-    $mail->Password = "agciqpqrqferdazp";
+    $mail->Password = "agc";
     $mail->SetFrom("renatoguara2020@gmail.com");
 	$mail->AddAddress("renatoguara2019@yahoo.com");
 	$mail->isHTML(true);
